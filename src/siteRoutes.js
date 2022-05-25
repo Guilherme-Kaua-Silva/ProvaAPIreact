@@ -3,9 +3,9 @@ import { BrowserRouter , Routes , Route} from 'react-router-dom'
 
 import { Home } from '/pages/home'
 import { CorPrimaria } from './pages/corprimaria'
-import { Frequencia } from './pages/frequencia'
-import { Ingresso } from './pages/ingresso'
-import { MaiorNumero } from './pages/maiornumero'
+import { Frequencia } from '/pages/frequencia'
+import { Ingresso } from '/pages/ingresso'
+import { MaiorNumero } from '/pages/maiornumero'
 
 export default function SiteRoutes(){
     return(
