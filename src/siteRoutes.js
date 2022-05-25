@@ -1,7 +1,7 @@
 
-import { BrowserRouter , Routes , Route} from 'react-route-dom'
+import { BrowserRouter , Routes , Route} from 'react-router-dom'
 
-import { Home } from './pages/home'
+import { Home } from '/pages/home'
 import { CorPrimaria } from './pages/corprimaria'
 import { Frequencia } from './pages/frequencia'
 import { Ingresso } from './pages/ingresso'
@@ -13,11 +13,11 @@ export default function SiteRoutes(){
         
             <Routes>
 
-                <Route path= '/' element={<Home />} />
-                <Route path= '/' element={<CorPrimaria />} />
-                <Route path= '/' element={<Frequencia />} />
-                <Route path= '/' element={<Ingresso />} />
-                <Route path= '/' element={<MaiorNumero />} />
+                <Route path= '/home' element={<Home />} />
+                <Route path= '/corprimaria' element={<CorPrimaria />} />
+                <Route path= '/frequencia' element={<Frequencia />} />
+                <Route path= '/ingresso' element={<Ingresso />} />
+                <Route path= '/maiornumero' element={<MaiorNumero />} />
 
             </Routes>
         
